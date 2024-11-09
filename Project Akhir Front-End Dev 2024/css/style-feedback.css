@@ -1,0 +1,117 @@
+body{
+    background-image: url(images/movie2.jpg);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+    background-size: cover;
+}
+
+header{
+    border-style: double;
+    border-color: white;
+    border-width: 5px;
+    text-align: center;
+    color: aliceblue;
+    font-size: 25px;
+    margin-right: 100px;
+    margin-left: 100px;
+}
+
+@keyframes fadeInFromTop {
+    0% {
+        opacity: 0;
+        transform: translateY(-100px); 
+    }
+    100% {
+        opacity: 1;
+        transform: translateY(0); 
+    }
+    }
+    header{
+        animation: fadeInFromTop 2s ease-out; 
+    }
+
+@keyframes fadeInFromTop {
+    0% {
+        opacity: 0;
+        transform: translateY(-100px); 
+    }
+    100% {
+        opacity: 1;
+        transform: translateY(0); 
+    }
+    }
+    nav {
+        animation: fadeInFromTop 2s ease-out; 
+    }
+
+nav{
+    text-align: center;
+    margin-right: 100px;
+    margin-left: 100px;
+    color: aliceblue;
+    font-size: 13px;
+}
+
+a {
+    color: white;
+    text-decoration: underline;
+}
+
+a:hover {
+    color: skyblue;
+}
+
+a:active {
+    color: blue;
+}
+
+@keyframes fadeInFromBottom {
+    0% {
+      opacity: 0;
+      transform: translateY(100px); 
+    }
+    100% {
+      opacity: 1;
+      transform: translateY(0); 
+    }
+  }
+  main {
+    animation: fadeInFromBottom 2s ease-out; 
+  }
+
+p{
+    color: aliceblue;
+    font-size: 20px;
+    text-align: center;
+}
+
+main {
+    color:aliceblue;
+    margin-left: 100px;
+    margin-right: 100px;
+    font-size: 15px;
+    text-align: center;
+}
+
+footer {
+    text-align: center;
+    color: aliceblue;
+    background-color: black;
+    margin-left: 300px;
+    margin-right: 300px;
+}
+    
+@keyframes fadeInFromBottom {
+    0% {
+        opacity: 0;
+        transform: translateY(100px); 
+    }
+    100% {
+        opacity: 1;
+        transform: translateY(0); 
+    }
+}
+footer {
+    animation: fadeInFromBottom 2s ease-out; 
+}
